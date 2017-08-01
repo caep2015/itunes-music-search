@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>iTunes Music Search</title>
+ <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>iTunes Music Search</h1>
+    </header>
+    <section class="player">
+      <audio class="music_player" controls><source class="audioSource" src=""></source></audio>
+      <div class="current-piece">
+        <div class="now-playing">Now playing:</div><script src=""></script>
+      </div>
+    </section>
+    <section class="search">
+      <form class="search-form">
+        <form class="search" action="">
+          <input class="search_song" type="text" name="search" placeholder="Search for artist..." value="">
+          <button class="searchBtn" type="button" name="searchBtn" value="">Search</button>
+        </form>
+        <label for="returned-songs">Search Results:</label>
+      </form>
+    </section>
+    <section class="results"></section>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

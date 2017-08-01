@@ -1,0 +1,119 @@
+
+body {
+  color: black;
+  font-family: 'PT Sans', sans-serif;
+  background:  url(https://static.pexels.com/photos/374703/pexels-photo-374703.jpeg)
+  center 1px #e6e6e6  no-repeat;
+  background-size: 800px;
+}
+
+header {
+  text-align: center;
+}
+
+label {
+  font-size: 1em;
+  font-weight: bold;
+
+}
+.container {
+  padding-top: 550px;
+
+}
+
+.player {
+  padding: 0px 40vw;
+  margin-left: -370px;
+}
+audio {
+  width: 980px;
+
+}
+.search {
+  width: 980px;
+  height: 40px;
+  margin: 20px auto;
+  background: white;
+  border-radius: 3px;
+  border: 2px solid gray;
+}
+
+.search input {
+  width: 370px;
+  padding: 12px 10px 30px;
+  color: black;
+  border: 0;
+  background: transparent;
+  border-radius: 3px 0 0 3px;
+}
+
+.search input:focus {
+  outline: 0;
+  background: transparent;
+  font-size: 1.5em;
+}
+
+.search button {
+  position: relative;
+  float: right;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  height: 40px;
+  width: 120px;
+  color: black;
+  background: rgba(144, 136, 136, 0.52);
+  border-left: 1px solid #827e7e;
+  font-weight: bold;
+}
+
+.search button:hover {
+  background: #948f8f;
+  color: #444;
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+}
+
+button.loading:before {
+  content: '';
+  position: absolute;
+  width: 5em;
+  height: 5em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #2b2b2b;
+  -webkit-mask: url('https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg') top left / cover;
+  animation: throb 1s infinite ease;
+}
+
+.wrapper {
+  margin-top: 30px;
+  background-color: white;
+  width: 250px;
+  padding-top: 50px;
+  text-align: center;
+  display-flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#title a {
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+  color: #3426dc;
+  font-weight: bold;
+}
+
+#artist a {
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
